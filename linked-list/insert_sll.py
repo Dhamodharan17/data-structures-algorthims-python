@@ -80,6 +80,7 @@ class LinkedList:
         
        
         temp = self.head
+        #stop before and insert
         while temp.next and temp.next.data != before:
             temp = temp.next
         
