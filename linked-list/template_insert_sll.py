@@ -9,25 +9,15 @@ class LinkedList:
 
     def __init__(self):
         self.head = None
-    
-    
+
     def insert_at_start(self,data):
         #print
     def insert_at_end(self,data):
         #print
-        
-       
-    
     def insert_at_pos(self, data, pos):
         #print
-        
-        
-    
     def insert_at_after(self,data,after):
         #print
-        
-       
-        
     def insert_at_before(self,data,before):
         #print
         
@@ -37,7 +27,6 @@ class LinkedList:
         while temp:
             print(temp.data)
             temp = temp.next
-
 
 #call
 ll = LinkedList()
