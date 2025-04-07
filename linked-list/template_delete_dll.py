@@ -10,34 +10,22 @@ class DoublyLinkedList:
         self.head = None
         
     def insert_at_end(self,x):
-        #logic
-        
-       
+        print('logic')
     
     def print(self):
-        
         temp = self.head
         while temp:
             print(temp.data)
             temp = temp.next
             
-            
     def delete_at_start(self):
-        #logic
-    
-        
+        print('logic')
     def delete_at_end(self):
-        #logic
-       
+        print('logic')
     def delete_at_pos(self,pos):
-        #logic
-        
-        
-        
-    
+        print('logic')
     def delete_before_node(x):
         print('logic')
-        
     def delete_after_node(x):
         print('logic')
         
